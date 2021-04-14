@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<!-- The following lines are coments
+Author: Janis Akmentins
+Date Created: 11.03.2021
+Page Description: Home page-->
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8"/>
+        <meta name = "description" content = "travel guide website">
+        <title>Welcome to Riga</title>
+        <link rel="stylesheet" href="styles/sample.css">
+        <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+    </head>
+    
+    <body>
+        <header>
+            <div class= "image"></div>
+            <img src="images/logo.png" alt="html logo" height="100" width="100">
+            <h1>WELCOME TO RIGA</h1>
+            
+            <nav>
+            <ul>
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="nightlife.html"> NIGHTLIFE </a></li>
+                <li><a href="food.html"> RESTAURANTS </a></li>
+                <li><a href="thingstosee.html"> THINGS TO SEE </a></li>
+            </ul>
+        </nav>
+        
+        </header>
+        <section class="contactform">
+            <h3>To contact us please enter the following information!</h3>
+            <form action="http:/foo.com" method="get">
+            
+                <label for="first_name:">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name:">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="email:">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                <label for="message">Message:</label>
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters!" data-maxlength="200"></textarea><br>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+            
+            </form>
+            <p style="margin-left: 136px"> <span class="required">*</span> <em>required</em></p>
+        </section>
+        <footer>
+            <small>&copy; 2021 Visit Riga </small>
+        </footer> 
+    
+    </body>
+
+</html>
